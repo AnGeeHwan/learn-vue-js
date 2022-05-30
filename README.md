@@ -47,3 +47,25 @@ Vue.component('컴포넌트 이름', 컴포넌트 내용);
 
 <app-header v-on:하위 컴포넌트에서 발생한 이벤트 이름="상위 컴포넌트의 메서드 이름"></app-header>
 ```
+
+# route
+
+```javascript
+var router = new VueRouter({
+  // 페이지의 라우팅 정보
+  routes: [
+    // 로그인 페이지 정보
+    {
+      //페이지 url
+      path: "/login",
+      // 해당 url에서 표시될 컴포넌트
+      component: LoginComponent,
+    },
+    // 메인 페이지 정보
+    {
+      path: "/main",
+      component: MainComponent,
+    },
+  ],
+});
+```
