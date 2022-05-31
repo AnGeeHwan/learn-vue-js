@@ -69,3 +69,24 @@ var router = new VueRouter({
   ],
 });
 ```
+
+#
+
+```javascript
+<app-header v-bind:프롭스 속성 이름="상위 컴포넌트의 데이터이름"></app-header>
+```
+
+# 정리
+
+- Reactivity
+- 인스턴스
+- 컴포넌트 : 화면의 영역을 구분해서 개발하는 방식, 재사용성
+- 컴포넌트 통신
+  - props (상위 -> 하위)
+  - event emit (하위 -> 상위)
+- HTTP 통신 라이브러리 (axios)
+- 템플릿 문법
+  - 데이터 바인딩
+  - 뷰 디렉티브 (v-) 뷰 문법
+- Vue CLI
+- 싱글 파일 컴포넌트
